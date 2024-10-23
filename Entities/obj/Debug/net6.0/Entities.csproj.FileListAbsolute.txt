@@ -1,0 +1,12 @@
+C:\AllFiles\UltimateWebApi\Entities\bin\Debug\net6.0\Entities.deps.json
+C:\AllFiles\UltimateWebApi\Entities\bin\Debug\net6.0\Entities.dll
+C:\AllFiles\UltimateWebApi\Entities\bin\Debug\net6.0\Entities.pdb
+C:\AllFiles\UltimateWebApi\Entities\obj\Debug\net6.0\Entities.csproj.AssemblyReference.cache
+C:\AllFiles\UltimateWebApi\Entities\obj\Debug\net6.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\AllFiles\UltimateWebApi\Entities\obj\Debug\net6.0\Entities.AssemblyInfoInputs.cache
+C:\AllFiles\UltimateWebApi\Entities\obj\Debug\net6.0\Entities.AssemblyInfo.cs
+C:\AllFiles\UltimateWebApi\Entities\obj\Debug\net6.0\Entities.csproj.CoreCompileInputs.cache
+C:\AllFiles\UltimateWebApi\Entities\obj\Debug\net6.0\Entities.dll
+C:\AllFiles\UltimateWebApi\Entities\obj\Debug\net6.0\refint\Entities.dll
+C:\AllFiles\UltimateWebApi\Entities\obj\Debug\net6.0\Entities.pdb
+C:\AllFiles\UltimateWebApi\Entities\obj\Debug\net6.0\ref\Entities.dll

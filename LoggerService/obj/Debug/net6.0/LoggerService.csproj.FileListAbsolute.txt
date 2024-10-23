@@ -1,0 +1,17 @@
+C:\AllFiles\UltimateWebApi\LoggerService\bin\Debug\net6.0\LoggerService.deps.json
+C:\AllFiles\UltimateWebApi\LoggerService\bin\Debug\net6.0\LoggerService.dll
+C:\AllFiles\UltimateWebApi\LoggerService\bin\Debug\net6.0\LoggerService.pdb
+C:\AllFiles\UltimateWebApi\LoggerService\bin\Debug\net6.0\Contracts.dll
+C:\AllFiles\UltimateWebApi\LoggerService\bin\Debug\net6.0\Contracts.pdb
+C:\AllFiles\UltimateWebApi\LoggerService\obj\Debug\net6.0\LoggerService.csproj.AssemblyReference.cache
+C:\AllFiles\UltimateWebApi\LoggerService\obj\Debug\net6.0\LoggerService.GeneratedMSBuildEditorConfig.editorconfig
+C:\AllFiles\UltimateWebApi\LoggerService\obj\Debug\net6.0\LoggerService.AssemblyInfoInputs.cache
+C:\AllFiles\UltimateWebApi\LoggerService\obj\Debug\net6.0\LoggerService.AssemblyInfo.cs
+C:\AllFiles\UltimateWebApi\LoggerService\obj\Debug\net6.0\LoggerService.csproj.CoreCompileInputs.cache
+C:\AllFiles\UltimateWebApi\LoggerService\obj\Debug\net6.0\LoggerService.csproj.CopyComplete
+C:\AllFiles\UltimateWebApi\LoggerService\obj\Debug\net6.0\LoggerService.dll
+C:\AllFiles\UltimateWebApi\LoggerService\obj\Debug\net6.0\refint\LoggerService.dll
+C:\AllFiles\UltimateWebApi\LoggerService\obj\Debug\net6.0\LoggerService.pdb
+C:\AllFiles\UltimateWebApi\LoggerService\obj\Debug\net6.0\ref\LoggerService.dll
+C:\AllFiles\UltimateWebApi\LoggerService\bin\Debug\net6.0\Entities.dll
+C:\AllFiles\UltimateWebApi\LoggerService\bin\Debug\net6.0\Entities.pdb
