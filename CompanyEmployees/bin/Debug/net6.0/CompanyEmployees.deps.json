@@ -1011,7 +1011,10 @@
           "Service.Contracts": "1.0.0"
         },
         "runtime": {
-          "CompanyEmployees.Presentation.dll": {}
+          "CompanyEmployees.Presentation.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Contracts/1.0.0": {
@@ -1019,12 +1022,18 @@
           "Entities": "1.0.0"
         },
         "runtime": {
-          "Contracts.dll": {}
+          "Contracts.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Entities/1.0.0": {
         "runtime": {
-          "Entities.dll": {}
+          "Entities.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "LoggerService/1.0.0": {
@@ -1033,7 +1042,10 @@
           "NLog.Extensions.Logging": "5.3.7"
         },
         "runtime": {
-          "LoggerService.dll": {}
+          "LoggerService.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Repository/1.0.0": {
@@ -1043,7 +1055,10 @@
           "Microsoft.EntityFrameworkCore": "6.0.27"
         },
         "runtime": {
-          "Repository.dll": {}
+          "Repository.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Service/1.0.0": {
@@ -1053,7 +1068,10 @@
           "Service.Contracts": "1.0.0"
         },
         "runtime": {
-          "Service.dll": {}
+          "Service.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Service.Contracts/1.0.0": {
@@ -1061,12 +1079,18 @@
           "Shared": "1.0.0"
         },
         "runtime": {
-          "Service.Contracts.dll": {}
+          "Service.Contracts.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Shared/1.0.0": {
         "runtime": {
-          "Shared.dll": {}
+          "Shared.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

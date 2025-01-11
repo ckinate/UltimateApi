@@ -741,12 +741,18 @@
           "Shared": "1.0.0"
         },
         "runtime": {
-          "Service.Contracts.dll": {}
+          "Service.Contracts.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Shared/1.0.0": {
         "runtime": {
-          "Shared.dll": {}
+          "Shared.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

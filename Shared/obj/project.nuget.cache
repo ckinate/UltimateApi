@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "QA4pOL1W4gs=",
+  "dgSpecHash": "L9Q7NfYwviA=",
   "success": true,
-  "projectFilePath": "C:\\AllFiles\\UltimateWebApi\\Shared\\Shared.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\manufacture\\Documents\\Courses\\Application\\UltimateApi\\Shared\\Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\manufacture\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.33\\microsoft.windowsdesktop.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\manufacture\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.33\\microsoft.netcore.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\manufacture\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.33\\microsoft.aspnetcore.app.ref.6.0.33.nupkg.sha512"
+  ],
   "logs": []
 }
