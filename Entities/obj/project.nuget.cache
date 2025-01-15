@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "iwEwqukRuNQ=",
+  "dgSpecHash": "C7+2vGcqTsE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\manufacture\\Documents\\Courses\\Application\\UltimateApi\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\AllFiles\\UltimateWebApi\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\manufacture\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.33\\microsoft.windowsdesktop.app.ref.6.0.33.nupkg.sha512",
-    "C:\\Users\\manufacture\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.33\\microsoft.netcore.app.ref.6.0.33.nupkg.sha512",
-    "C:\\Users\\manufacture\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.33\\microsoft.aspnetcore.app.ref.6.0.33.nupkg.sha512"
+    "C:\\Users\\christian.kinate\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\christian.kinate\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\christian.kinate\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512"
   ],
   "logs": []
 }

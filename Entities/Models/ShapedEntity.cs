@@ -10,10 +10,10 @@ namespace Entities.Models
     {
         public ShapedEntity() 
         { 
-          //  Entity = new Entity();
+            Entity = new Entity();
         }
 
         public Guid Id { get; set; }
-       // public Entity Entity { get; set; }
+        public Entity Entity { get; set; }
     }
 }
