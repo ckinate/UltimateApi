@@ -125,12 +125,18 @@
       "Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Shared": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Entities.dll": {}
         },
         "runtime": {
           "bin/placeholder/Entities.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "Service.Contracts/1.0.0": {
         "type": "project",
@@ -382,25 +388,30 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\manufacture\\.nuget\\packages\\": {}
+    "C:\\Users\\christian.kinate\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\manufacture\\Documents\\Courses\\Application\\UltimateApi\\Service\\Service.csproj",
+      "projectUniqueName": "C:\\AllFiles\\UltimateWebApi\\Service\\Service.csproj",
       "projectName": "Service",
-      "projectPath": "C:\\Users\\manufacture\\Documents\\Courses\\Application\\UltimateApi\\Service\\Service.csproj",
-      "packagesPath": "C:\\Users\\manufacture\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\manufacture\\Documents\\Courses\\Application\\UltimateApi\\Service\\obj\\",
+      "projectPath": "C:\\AllFiles\\UltimateWebApi\\Service\\Service.csproj",
+      "packagesPath": "C:\\Users\\christian.kinate\\.nuget\\packages\\",
+      "outputPath": "C:\\AllFiles\\UltimateWebApi\\Service\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\manufacture\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\christian.kinate\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\AllFiles\\Microservices\\SQLVersion\\packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
@@ -409,11 +420,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\manufacture\\Documents\\Courses\\Application\\UltimateApi\\Contracts\\Contracts.csproj": {
-              "projectPath": "C:\\Users\\manufacture\\Documents\\Courses\\Application\\UltimateApi\\Contracts\\Contracts.csproj"
+            "C:\\AllFiles\\UltimateWebApi\\Contracts\\Contracts.csproj": {
+              "projectPath": "C:\\AllFiles\\UltimateWebApi\\Contracts\\Contracts.csproj"
             },
-            "C:\\Users\\manufacture\\Documents\\Courses\\Application\\UltimateApi\\Service.Contracts\\Service.Contracts.csproj": {
-              "projectPath": "C:\\Users\\manufacture\\Documents\\Courses\\Application\\UltimateApi\\Service.Contracts\\Service.Contracts.csproj"
+            "C:\\AllFiles\\UltimateWebApi\\Service.Contracts\\Service.Contracts.csproj": {
+              "projectPath": "C:\\AllFiles\\UltimateWebApi\\Service.Contracts\\Service.Contracts.csproj"
             }
           }
         }
@@ -452,15 +463,15 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.33, 6.0.33]"
+            "version": "[6.0.36, 6.0.36]"
           },
           {
             "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.33, 6.0.33]"
+            "version": "[6.0.36, 6.0.36]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.33, 6.0.33]"
+            "version": "[6.0.36, 6.0.36]"
           }
         ],
         "frameworkReferences": {
@@ -468,16 +479,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
-    }
-  ]
+  }
 }
