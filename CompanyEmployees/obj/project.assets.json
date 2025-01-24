@@ -5807,25 +5807,30 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\manufacture\\.nuget\\packages\\": {}
+    "C:\\Users\\christian.kinate\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\manufacture\\Documents\\Courses\\Application\\UltimateApi\\CompanyEmployees\\CompanyEmployees.csproj",
+      "projectUniqueName": "C:\\AllFiles\\UltimateWebApi\\CompanyEmployees\\CompanyEmployees.csproj",
       "projectName": "CompanyEmployees",
-      "projectPath": "C:\\Users\\manufacture\\Documents\\Courses\\Application\\UltimateApi\\CompanyEmployees\\CompanyEmployees.csproj",
-      "packagesPath": "C:\\Users\\manufacture\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\manufacture\\Documents\\Courses\\Application\\UltimateApi\\CompanyEmployees\\obj\\",
+      "projectPath": "C:\\AllFiles\\UltimateWebApi\\CompanyEmployees\\CompanyEmployees.csproj",
+      "packagesPath": "C:\\Users\\christian.kinate\\.nuget\\packages\\",
+      "outputPath": "C:\\AllFiles\\UltimateWebApi\\CompanyEmployees\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\manufacture\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\christian.kinate\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\AllFiles\\Microservices\\SQLVersion\\packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
@@ -5834,17 +5839,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\manufacture\\Documents\\Courses\\Application\\UltimateApi\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj": {
-              "projectPath": "C:\\Users\\manufacture\\Documents\\Courses\\Application\\UltimateApi\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj"
+            "C:\\AllFiles\\UltimateWebApi\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj": {
+              "projectPath": "C:\\AllFiles\\UltimateWebApi\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj"
             },
-            "C:\\Users\\manufacture\\Documents\\Courses\\Application\\UltimateApi\\LoggerService\\LoggerService.csproj": {
-              "projectPath": "C:\\Users\\manufacture\\Documents\\Courses\\Application\\UltimateApi\\LoggerService\\LoggerService.csproj"
+            "C:\\AllFiles\\UltimateWebApi\\LoggerService\\LoggerService.csproj": {
+              "projectPath": "C:\\AllFiles\\UltimateWebApi\\LoggerService\\LoggerService.csproj"
             },
-            "C:\\Users\\manufacture\\Documents\\Courses\\Application\\UltimateApi\\Repository\\Repository.csproj": {
-              "projectPath": "C:\\Users\\manufacture\\Documents\\Courses\\Application\\UltimateApi\\Repository\\Repository.csproj"
+            "C:\\AllFiles\\UltimateWebApi\\Repository\\Repository.csproj": {
+              "projectPath": "C:\\AllFiles\\UltimateWebApi\\Repository\\Repository.csproj"
             },
-            "C:\\Users\\manufacture\\Documents\\Courses\\Application\\UltimateApi\\Service\\Service.csproj": {
-              "projectPath": "C:\\Users\\manufacture\\Documents\\Courses\\Application\\UltimateApi\\Service\\Service.csproj"
+            "C:\\AllFiles\\UltimateWebApi\\Service\\Service.csproj": {
+              "projectPath": "C:\\AllFiles\\UltimateWebApi\\Service\\Service.csproj"
             }
           }
         }
@@ -5899,19 +5904,19 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.33, 6.0.33]"
+            "version": "[6.0.36, 6.0.36]"
           },
           {
             "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[6.0.33, 6.0.33]"
+            "version": "[6.0.36, 6.0.36]"
           },
           {
             "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.33, 6.0.33]"
+            "version": "[6.0.36, 6.0.36]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.33, 6.0.33]"
+            "version": "[6.0.36, 6.0.36]"
           }
         ],
         "frameworkReferences": {
@@ -5922,7 +5927,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   }
