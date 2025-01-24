@@ -1,30 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\AllFiles\\UltimateWebApi\\Entities\\Entities.csproj": {}
+    "C:\\Users\\manufacture\\Documents\\Courses\\Application\\UltimateApi\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "C:\\AllFiles\\UltimateWebApi\\Entities\\Entities.csproj": {
+    "C:\\Users\\manufacture\\Documents\\Courses\\Application\\UltimateApi\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\AllFiles\\UltimateWebApi\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\manufacture\\Documents\\Courses\\Application\\UltimateApi\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\AllFiles\\UltimateWebApi\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\christian.kinate\\.nuget\\packages\\",
-        "outputPath": "C:\\AllFiles\\UltimateWebApi\\Entities\\obj\\",
+        "projectPath": "C:\\Users\\manufacture\\Documents\\Courses\\Application\\UltimateApi\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\manufacture\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\manufacture\\Documents\\Courses\\Application\\UltimateApi\\Entities\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\christian.kinate\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\manufacture\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\AllFiles\\Microservices\\SQLVersion\\packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
@@ -33,8 +29,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\AllFiles\\UltimateWebApi\\Shared\\Shared.csproj": {
-                "projectPath": "C:\\AllFiles\\UltimateWebApi\\Shared\\Shared.csproj"
+              "C:\\Users\\manufacture\\Documents\\Courses\\Application\\UltimateApi\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\manufacture\\Documents\\Courses\\Application\\UltimateApi\\Shared\\Shared.csproj"
               }
             }
           }
@@ -53,6 +49,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.27, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -67,15 +69,15 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
+              "version": "[6.0.33, 6.0.33]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
+              "version": "[6.0.33, 6.0.33]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
+              "version": "[6.0.33, 6.0.33]"
             }
           ],
           "frameworkReferences": {
@@ -86,31 +88,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\AllFiles\\UltimateWebApi\\Shared\\Shared.csproj": {
+    "C:\\Users\\manufacture\\Documents\\Courses\\Application\\UltimateApi\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\AllFiles\\UltimateWebApi\\Shared\\Shared.csproj",
+        "projectUniqueName": "C:\\Users\\manufacture\\Documents\\Courses\\Application\\UltimateApi\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "C:\\AllFiles\\UltimateWebApi\\Shared\\Shared.csproj",
-        "packagesPath": "C:\\Users\\christian.kinate\\.nuget\\packages\\",
-        "outputPath": "C:\\AllFiles\\UltimateWebApi\\Shared\\obj\\",
+        "projectPath": "C:\\Users\\manufacture\\Documents\\Courses\\Application\\UltimateApi\\Shared\\Shared.csproj",
+        "packagesPath": "C:\\Users\\manufacture\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\manufacture\\Documents\\Courses\\Application\\UltimateApi\\Shared\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\christian.kinate\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\manufacture\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\AllFiles\\Microservices\\SQLVersion\\packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
@@ -149,15 +147,15 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
+              "version": "[6.0.33, 6.0.33]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
+              "version": "[6.0.33, 6.0.33]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
+              "version": "[6.0.33, 6.0.33]"
             }
           ],
           "frameworkReferences": {
@@ -165,7 +163,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

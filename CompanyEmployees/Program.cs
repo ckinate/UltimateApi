@@ -28,6 +28,7 @@ builder.Services.ConfigureServiceManager();
 builder.Services.ConfigureSqlContext(builder.Configuration);
 builder.Services.ConfigureVersioning();
 builder.Services.ConfigureResponseCaching();
+builder.Services.ConfigureHttpCacheHeaders();
 
 
 builder.Services.AddScoped<ValidationFilterAttribute>();
@@ -57,6 +58,9 @@ builder.Services.AddScoped<ValidateMediaTypeAttribute>();
 builder.Services.Configure<ApiBehaviorOptions>(options => { options.SuppressModelStateInvalidFilter = true; });
 
 builder.Services.AddAutoMapper(typeof(Program));
+builder.Services.AddAuthentication();
+builder.Services.ConfigureIdentity();
+
 
 
 //builder.Services.AddControllers();
@@ -80,7 +84,9 @@ app.UseForwardedHeaders(new ForwardedHeadersOptions
 });
 app.UseCors("CorsPolicy");
 app.UseResponseCaching();
+app.UseHttpCacheHeaders();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

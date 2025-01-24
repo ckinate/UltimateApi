@@ -7,6 +7,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc.Formatters;
 using Microsoft.AspNetCore.Mvc;
 using Asp.Versioning;
+using Marvin.Cache.Headers;
+using Entities.Models;
+using Microsoft.AspNetCore.Identity;
 
 namespace CompanyEmployees.Extensions
 {
@@ -94,6 +97,35 @@ namespace CompanyEmployees.Extensions
             }).AddMvc();
         }
         public static void ConfigureResponseCaching(this IServiceCollection services) => services.AddResponseCaching();
+        public static void ConfigureHttpCacheHeaders(this IServiceCollection services) =>services.AddHttpCacheHeaders(
+             (expirationOpt) =>
+             {
+                 expirationOpt.MaxAge = 65;
+                 expirationOpt.CacheLocation = CacheLocation.Private;
+             },
+             (validationOpt) =>
+             {
+                 validationOpt.MustRevalidate = true;
+             }
+
+            );
+
+        //   public static void ConfigureOutputCaching(this IServiceCollection services) => services.AddOutputCache();
+
+        public static void ConfigureIdentity(this IServiceCollection services)
+        {
+            var builder = services.AddIdentity<User, IdentityRole>(o =>
+            {
+                o.Password.RequireDigit = true;
+                o.Password.RequireLowercase = false;
+                o.Password.RequireUppercase = false;
+                o.Password.RequireNonAlphanumeric = false;
+                o.Password.RequiredLength = 10;
+                o.User.RequireUniqueEmail = true;
+            })
+            .AddEntityFrameworkStores<RepositoryContext>()
+            .AddDefaultTokenProviders();
+        }
 
     }
 }
