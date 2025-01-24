@@ -13,7 +13,15 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Repository")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+034f36cd23967f14b75e69bcf359c4be05156824")]
+=======
+<<<<<<< HEAD
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb3a4471706e05ab3935bd111f4e4eaffb28aad1")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+340b2f0307096bb2c0a613094f6dd5979c2039ee")]
+>>>>>>> 034f36cd23967f14b75e69bcf359c4be05156824
+>>>>>>> 64b375fce3f8997bd2904a6acbdcaa6e19f72963
 [assembly: System.Reflection.AssemblyProductAttribute("Repository")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Repository")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

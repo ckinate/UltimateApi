@@ -60,6 +60,7 @@ builder.Services.Configure<ApiBehaviorOptions>(options => { options.SuppressMode
 builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.AddAuthentication();
 builder.Services.ConfigureIdentity();
+builder.Services.ConfigureJWT(builder.Configuration);
 
 
 
