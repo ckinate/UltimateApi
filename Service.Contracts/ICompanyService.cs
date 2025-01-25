@@ -1,5 +1,6 @@
 ﻿
 using Entities.Models;
+using Entities.Responses;
 using Shared.DataTransferObjects;
 using System;
 using System.Collections.Generic;
@@ -18,6 +19,9 @@ namespace Service.Contracts
         Task<(IEnumerable<CompanyDto> companies, string ids)> CreateCompanyCollectionAsync(IEnumerable<CompanyForCreationDto> companyCollection); 
         Task DeleteCompanyAsync(Guid companyId, bool trackChanges);
         Task UpdateCompanyAsync(Guid companyid, CompanyForUpdateDto companyForUpdate, bool trackChanges);
+        ApiBaseResponse GetAllCompanies(bool trackChanges);
+        ApiBaseResponse GetCompany(Guid companyId, bool trackChanges);
+
     }
 
 
