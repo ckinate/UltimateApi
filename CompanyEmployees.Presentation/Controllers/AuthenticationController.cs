@@ -17,7 +17,7 @@ namespace CompanyEmployees.Presentation.Controllers
         private readonly IServiceManager _service;
         public AuthenticationController(IServiceManager service) => _service = service;
 
-        [HttpPost]
+        [HttpPost("register")]
         [ServiceFilter(typeof(ValidationFilterAttribute))]
         public async Task<IActionResult> RegisterUser([FromBody] UserForRegistrationDto userForRegistration)
         {
@@ -40,8 +40,11 @@ namespace CompanyEmployees.Presentation.Controllers
         public async Task<IActionResult> Authenticate([FromBody] UserForAuthenticationDto user)
         {
             if (!await _service.AuthenticationService.ValidateUser(user)) return Unauthorized();
+            var tokenDto = await _service.AuthenticationService.CreateToken(populateExp: true);
 
-            return Ok(new { Token = await _service.AuthenticationService.CreateToken() });
+            return Ok(tokenDto);
+
+            //  return Ok(new { Token = await _service.AuthenticationService.CreateToken() });
         }
     }
 }
