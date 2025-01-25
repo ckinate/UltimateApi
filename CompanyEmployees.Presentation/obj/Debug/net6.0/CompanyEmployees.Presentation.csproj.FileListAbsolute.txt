@@ -33,3 +33,6 @@ C:\Users\manufacture\Documents\Courses\Application\UltimateApi\CompanyEmployees.
 C:\Users\manufacture\Documents\Courses\Application\UltimateApi\CompanyEmployees.Presentation\obj\Debug\net6.0\refint\CompanyEmployees.Presentation.dll
 C:\Users\manufacture\Documents\Courses\Application\UltimateApi\CompanyEmployees.Presentation\obj\Debug\net6.0\CompanyEmployees.Presentation.pdb
 C:\Users\manufacture\Documents\Courses\Application\UltimateApi\CompanyEmployees.Presentation\obj\Debug\net6.0\ref\CompanyEmployees.Presentation.dll
+C:\Users\manufacture\Documents\Courses\Application\UltimateApi\CompanyEmployees.Presentation\bin\Debug\net6.0\Entities.dll
+C:\Users\manufacture\Documents\Courses\Application\UltimateApi\CompanyEmployees.Presentation\bin\Debug\net6.0\Entities.pdb
+C:\Users\manufacture\Documents\Courses\Application\UltimateApi\CompanyEmployees.Presentation\bin\Debug\net6.0\CompanyEmployees.Presentation.xml
